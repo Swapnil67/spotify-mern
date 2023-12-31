@@ -1,0 +1,10 @@
+.main-shadow-div {
+  background: var(--lightdark-bg);
+  background-image: -webkit-gradient(linear,left top,left bottom,from(rgba(0,0,0,.6)),to(var(--secondary_bg))),var(--background-noise);
+  background-image: linear-gradient(rgba(0,0,0,.6) 0,var(--secondary_bg) 100%),var(--background-noise);
+  position: absolute;
+  height: 332px;
+  width: 100%;
+  margin-top: -64px;
+  z-index: -1;
+}

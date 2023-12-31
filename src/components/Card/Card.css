@@ -1,0 +1,15 @@
+.card {
+  background: #181818;
+}
+
+.card:hover {
+  background: var(--tertiary_bg);
+  transition: all 0.2s ease-in;
+}
+.play_btn {
+  display: none !important;
+}
+
+.card:hover .play_btn {
+  display: block !important;
+}
