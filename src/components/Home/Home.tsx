@@ -4,6 +4,7 @@ import { IoChevronForward, IoChevronBack } from "react-icons/io5";
 import { Button } from "../ui/button";
 import './Home.css';
 import Card from "../Card/Card";
+import { Link } from "react-router-dom";
 
 const Home = () => {
   return (
@@ -29,8 +30,8 @@ const Home = () => {
           </Button>
           <div className="m-4 w-[1px] h-6 bg-white"></div>
           <div>
-            <Button className="paragraph-regular py-8 pl-2 pr-8 text_secondary">Sign up</Button>
-            <Button className="bg-white text-black paragraph-semibold rounded-full px-8 py-2">Log in</Button>
+            <Link to={'/sign-up'} className="paragraph-regular py-8 pl-2 pr-8 text_secondary">Sign up</Link>
+            <Link to={'/login'} className="bg-white text-black paragraph-semibold rounded-full px-8 py-2">Log in</Link>
           </div>
         </div>
       </header>

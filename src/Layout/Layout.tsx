@@ -1,6 +1,8 @@
 import Sidebar from "../components/Sidebar/Sidebar"
 
-const Layout = ({ children }) => {
+const Layout = ({ children }: {
+  children: React.ReactNode
+}) => {
   return (
     <div className="flex gap-2">
       <Sidebar />
