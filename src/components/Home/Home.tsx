@@ -30,7 +30,7 @@ const Home = () => {
           </Button>
           <div className="m-4 w-[1px] h-6 bg-white"></div>
           <div>
-            <Link to={'/sign-up'} className="paragraph-regular py-8 pl-2 pr-8 text_secondary">Sign up</Link>
+            <Link to={'/signup'} className="paragraph-regular py-8 pl-2 pr-8 text_secondary">Sign up</Link>
             <Link to={'/login'} className="bg-white text-black paragraph-semibold rounded-full px-8 py-2">Log in</Link>
           </div>
         </div>

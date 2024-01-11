@@ -4,6 +4,8 @@
  
 @layer base {
   :root {
+
+    --primary_bg: #1ed760;
     
     --secondary_bg: #121212;
     --tertiary_bg: #242424;
@@ -192,6 +194,10 @@ body {
 
 .text_secondary {
   color: var(--text-secondary);
+}
+
+.primary_bg {
+  background: var(--primary_bg);
 }
 
 .primary-gradient {

@@ -60,7 +60,7 @@ const Login = () => {
           <div className="sign-up-section">
             <h2 className="text-center text-base">
               <span className="box-border text-base text-gray-400">Don't have an account?</span>
-              <Link to="/sign-up" className="block text-white underline hover:text-green-500 transition-all duration-200 text-base">
+              <Link to="/signup" className="block text-white underline hover:text-green-500 transition-all duration-200 text-base">
                 <span className="ml-2">Sign up for Spotify</span>
               </Link>
             </h2>
